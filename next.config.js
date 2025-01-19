@@ -1,5 +1,3 @@
-// /next.config.js
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true, // Enable React strict mode to highlight potential problems in the app
