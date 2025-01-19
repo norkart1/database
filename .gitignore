@@ -1,0 +1,32 @@
+# Node.js dependencies
+/node_modules/
+
+# Build output
+/.next/
+/out/
+
+# Production environment files
+/.env.local
+/.env.development.local
+/.env.production.local
+
+# Optional npm cache directory
+.npm/
+
+# Yarn and pnpm lock files
+yarn-error.log
+pnpm-debug.log
+
+# TypeScript build output
+/dist/
+/build/
+
+# IDE-specific files
+.vscode/
+/.idea/
+
+# Cloudinary credentials (if not using environment variables)
+cloudinary-api-keys.json
+
+# Log files
+*.log

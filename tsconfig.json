@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES5", // Specifies the target JavaScript version
+    "lib": ["dom", "dom.iterable", "esnext"], // Includes the appropriate libraries for the app
+    "allowJs": true, // Allows JavaScript files to be compiled
+    "skipLibCheck": true, // Skips type checking of declaration files
+    "esModuleInterop": true, // Enables compatibility with CommonJS and ES Modules
+    "allowSyntheticDefaultImports": true, // Allows default imports from modules with no default export
+    "strict": true, // Enables all strict type-checking options
+    "forceConsistentCasingInFileNames": true, // Ensures consistent casing in file names
+    "module": "esnext", // Specifies the module code generation method
+    "moduleResolution": "node", // Determines how modules get resolved
+    "resolveJsonModule": true, // Allows importing `.json` files
+    "isolatedModules": true, // Ensures each file is treated as a module
+    "noEmit": true, // Disables emitting output (Next.js handles this)
+    "jsx": "react-jsx", // Enables the JSX transform for React
+    "baseUrl": ".", // Specifies the base directory for resolving non-relative module names
+    "paths": {
+      "@components/*": ["components/*"], // Optional: alias for components
+      "@pages/*": ["pages/*"], // Optional: alias for pages
+      "@utils/*": ["utils/*"] // Optional: alias for utils
+    }
+  },
+  "exclude": ["node_modules", ".next", "out"], // Excludes unnecessary directories
+  "include": [
+    "next-env.d.ts", // Include Next.js types
+    "**/*.ts", // Includes TypeScript files
+    "**/*.tsx" // Includes TypeScript React files
+  ]
+}
