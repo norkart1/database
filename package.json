@@ -1,7 +1,7 @@
 {
   "name": "database",
   "version": "1.0.0",
-  "description": "Here is the README file that you can use for your project:",
+  "description": "Here is the README file that byou can use for your project:",
   "main": "next.config.js",
   "directories": {
     "lib": "lib"
