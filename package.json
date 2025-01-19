@@ -1,37 +1,27 @@
 {
   "name": "database",
   "version": "1.0.0",
-  "private": true,
+  "description": "Here is the README file that you can use for your project:",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "dev": "next dev", // Runs Next.js in development mode
-    "build": "next build", // Builds the production version of the app
-    "start": "next start", // Starts the Next.js production server
-    "lint": "next lint", // Runs the Next.js linter
-    "format": "prettier --write .", // Formats the code using Prettier
-    "test": "jest" // Optional: Run tests with Jest (if configured)
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "cloudinary": "^1.25.0", // Cloudinary SDK for uploading images
-    "next": "13.1.0", // Next.js
-    "react": "18.2.0", // React library
-    "react-dom": "18.2.0", // React DOM package for rendering UI
-    "react-hook-form": "^7.33.1", // For managing forms (optional)
-    "uuid": "^9.0.0" // For generating unique IDs (optional)
-  },
-  "devDependencies": {
-    "@types/node": "^18.11.7", // TypeScript types for Node.js
-    "@types/react": "^18.0.9", // TypeScript types for React
-    "typescript": "^4.5.5", // TypeScript compiler
-    "eslint": "^8.10.0", // Linting tool for JavaScript and TypeScript
-    "prettier": "^2.4.1", // Code formatter
-    "jest": "^27.0.6" // Test runner (optional)
-  },
-  "eslintConfig": {
-    "extends": ["next/core-web-vitals"] // Default ESLint configuration for Next.js
-  },
-  "prettier": {
-    "singleQuote": true, // Use single quotes for strings
-    "trailingComma": "all", // Add trailing commas wherever possible
-    "semi": true // Add semicolons at the end of statements
+    "@types/node": "^22.10.7",
+    "@types/react": "^19.0.7",
+    "cloudinary": "^2.5.1",
+    "eslint": "^9.18.0",
+    "multer": "^1.4.5-lts.1",
+    "next": "^15.1.5",
+    "prettier": "^3.4.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.7.3"
   }
 }
